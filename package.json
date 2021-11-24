@@ -1,0 +1,18 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "nuxi dev",
+		"build": "nuxi build",
+		"start": "node .output/server/index.mjs"
+	},
+	"devDependencies": {
+		"nuxt3": "latest",
+		"sass": "^1.43.4",
+		"sass-loader": "^12.3.0"
+	},
+	"dependencies": {
+		"@nuxtjs/sanity": "^0.10.0",
+		"@sanity/client": "^2.21.10",
+		"@sanity/image-url": "^1.0.1"
+	}
+}
